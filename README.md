@@ -29,6 +29,7 @@ npx cypress open
 This opens Cypress Test Runner where you can choose and run tests visually.
 
 Currently, the project includes one E2E test: `E2EPurchaseFlow.cy.js`. Please run this.
+To run test please add a real login/passwrd to `cypress/fixtures/creds.json` file
 
 ---
 
