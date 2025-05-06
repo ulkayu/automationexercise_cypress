@@ -3,7 +3,7 @@ import moment from 'moment';
 import _ from 'lodash';
 
 describe('Cache Test with External Libraries', () => {
-  it('Generates and logs fake data', () => {
+  it('Generates and logs fake data test', () => {
     const name = faker.name.fullName();
     const email = faker.internet.email();
     const date = moment().format('MMMM Do YYYY');
